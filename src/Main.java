@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		
 		LoadConsole();
-		System.out.println("done?");
+		System.out.println("done");
 	}
 	/**
 	 * Checks user inputs for validation and write
@@ -134,7 +134,7 @@ public class Main {
 		else initial=1000;
 		_GetRoot.setInitialValue(initial);*/
 		initial = _GetRoot.Calculate(prime,n);
-		WriteToXML("There were "+_GetRoot.getIterations()+" iterations of Newton's Method");
+		WriteToXML("There were "+_GetRoot.getIterations()+" iterations of Newton's Method for the "+ n +"th degree root of "+prime);
 		return initial;
 	}
 	/**
