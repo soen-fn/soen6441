@@ -1,4 +1,7 @@
-
+//------------------------------------------------------------
+/**This class is used to calculate the root of a given number and the degree
+ * using Newton's Method 
+ */
 public class GetRoot {
 	private double InitialValue;
 	private int Iterations;

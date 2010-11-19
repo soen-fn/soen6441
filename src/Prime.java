@@ -1,3 +1,7 @@
+//------------------------------------------------------------
+/**This class is used to calculate the primality of a given number
+ * and finding a factor if the number is not found to be prime
+ */
 
 public class Prime {
 	private double Root;
